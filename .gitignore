@@ -1,0 +1,9 @@
+.venv/
+tools/node_modules/
+__pycache__/
+*.py[cod]
+.DS_Store
+.streamlit/secrets.toml
+
+# Local Streamlit state
+data/tickets.csv

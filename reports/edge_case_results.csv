@@ -1,0 +1,15 @@
+case,text,category,conf,review,sentiment,urgency,reason
+Normal,I want a refund for my broken headphones,REFUND,0.851,False,Negative,Medium,problem: broken
+ALL CAPS + !!!,MY ACCOUNT HAS BEEN HACKED!!! HELP,ACCOUNT,0.857,False,Neutral,High,security: hacked
+Emoji,Still no refund 😡😡 this is ridiculous,REFUND,0.756,False,Negative,Medium,negative sentiment (-0.57)
+Numbers only,12345 67890,ACCOUNT,0.216,True,Neutral,Low,general request
+Not English,Quiero un reembolso de mi pedido,ACCOUNT,0.216,True,Neutral,Low,general request
+Greeting only,hello there,REFUND,0.321,True,Neutral,Low,general request
+HTML/code,<script>alert(1)</script> where is my invoice,INVOICE,0.9,False,Neutral,Low,general request
+Very long,My order is late. My order is late. My order is late. M,ORDER,0.57,False,Neutral,Medium,problem: late
+Typos,i cnat acess my acount pls hlep,ACCOUNT,0.645,False,Neutral,Low,general request
+Negation,"I was not charged twice, I just want to check my invoic",INVOICE,0.921,False,Neutral,High,money: charged twice
+Resolved issue,"Thanks, my issue is resolved now",ACCOUNT,0.514,False,Positive,Medium,problem: issue
+Sarcasm,"Great, another late delivery. Just perfect.",SHIPPING,0.677,False,Positive,Medium,problem: late
+Calm but serious,Someone else is using my account without my permission,ACCOUNT,0.975,False,Neutral,High,security: without my permissio
+Mixed topics,I need a refund and also want to change my shipping add,SHIPPING,0.986,False,Neutral,Low,general request

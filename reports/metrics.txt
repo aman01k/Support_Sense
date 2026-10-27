@@ -1,0 +1,22 @@
+Accuracy: 0.996
+Macro F1: 0.997
+
+              precision    recall  f1-score   support
+
+     ACCOUNT      0.995     0.999     0.997      1023
+      CANCEL      1.000     1.000     1.000       188
+     CONTACT      1.000     0.997     0.999       393
+    DELIVERY      0.994     0.994     0.994       326
+    FEEDBACK      1.000     1.000     1.000       398
+     INVOICE      0.994     0.997     0.995       324
+       ORDER      0.993     0.992     0.993       604
+     PAYMENT      1.000     0.987     0.994       397
+      REFUND      0.992     0.998     0.995       514
+    SHIPPING      1.000     1.000     1.000       390
+SUBSCRIPTION      1.000     0.995     0.997       199
+
+    accuracy                          0.996      4756
+   macro avg      0.997     0.996     0.997      4756
+weighted avg      0.996     0.996     0.996      4756
+
+Linear SVM: acc=0.998 macroF1=0.998

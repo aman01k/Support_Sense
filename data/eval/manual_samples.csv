@@ -1,0 +1,37 @@
+text,expected_sentiment,expected_urgency
+"I've been charged twice for my subscription, and nobody has responded to my previous complaint!",Negative,High
+My account was hacked and someone changed my email,Negative,High
+There is a payment on my card I did not make. Is this fraud?,Negative,High
+"I need access to my account urgently, my business depends on it",Neutral,High
+Money was deducted from my bank but the order shows as failed,Negative,High
+This is the worst service ever. I will take legal action.,Negative,High
+I see a suspicious login from another country on my profile,Negative,High
+You overcharged me by 500 rupees on my last bill,Negative,High
+Please refund me immediately or I will report you,Negative,High
+"Absolutely terrible, I am furious and disgusted with your company",Negative,High
+I can't log into my account,Neutral,Medium
+The app keeps showing an error when I try to pay,Negative,Medium
+My package hasn't arrived yet and it has been 10 days,Neutral,Medium
+The headphones I received are broken,Negative,Medium
+The discount code is not working at checkout,Neutral,Medium
+I received the wrong item in my order,Negative,Medium
+My refund is delayed and I am still waiting,Negative,Medium
+I'm disappointed with the quality of the product,Negative,Medium
+I was unable to download my invoice,Neutral,Medium
+One item is missing from my delivery,Negative,Medium
+The tracking page shows a problem with my shipment,Negative,Medium
+I am not happy with how my complaint was handled,Negative,Medium
+How do I change my shipping address?,Neutral,Low
+What payment methods do you accept?,Neutral,Low
+Please tell me how to update my address.,Neutral,Low
+I want to unsubscribe from the newsletter,Neutral,Low
+Can I get a copy of my invoice for March?,Neutral,Low
+How long does delivery to Mumbai take?,Neutral,Low
+What is your cancellation fee?,Neutral,Low
+I would like to speak to a customer agent,Neutral,Low
+Your support team was excellent.,Positive,Low
+Thanks a lot for the quick help! Great service.,Positive,Low
+I love the new app update. Amazing work!,Positive,Low
+The delivery was super fast. Very happy with it!,Positive,Low
+I would like to leave some feedback about my order,Neutral,Low
+How can I create a new account?,Neutral,Low
